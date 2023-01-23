@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+.main {
+  background-color: black;
+  width: auto;
+  height: 1000px;
+}
+.child {
+  background-color: #282c34;
+  width: 30%;
+  height: 10%;
+  display: inline-block;
+}
