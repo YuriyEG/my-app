@@ -31,7 +31,7 @@ function App() {
                         
             </div>   
             
-             {builds}
+             
             <div className='contact'>
 
                   <p><button>КОНТАКТЫ</button></p>
@@ -63,7 +63,7 @@ function App() {
                         <input></input>
                         <input type='submit' value='Отправить' class='mysubmit'/>
                   </form>
-                  f
+                  
             </div>
                         
                         
