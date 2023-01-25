@@ -1,6 +1,9 @@
 
 div {
-  background-color: #282c34;
+  background-color: #00000086;
+}
+.mybutton {
+  background-color:rgba(211, 29, 29, 0);
 }
 
 .header {

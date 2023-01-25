@@ -3,6 +3,13 @@
 import './App.css';
 
 
+
+
+
+
+
+
+
 function App() {
       
   return (
@@ -15,10 +22,16 @@ function App() {
                         8 (800) 885-15-88
                   </div>
             </div>
+            
             <div className='logo-picture'>
+                  <button>Показать фото строительства</button>
+                  
+            
                         
                         
-            </div>    
+            </div>   
+            
+             {builds}
             <div className='contact'>
 
                   <p><button>КОНТАКТЫ</button></p>
@@ -30,9 +43,7 @@ function App() {
             <div className='projects'>
 
             </div>     
-            <div className='building'>
-
-            </div>
+            
             <div className='pharagraph'>
                   <div className='pharagraph2'>
                         <h1>О ТЕХНОЛОГИИ</h1>
