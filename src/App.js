@@ -26,7 +26,34 @@ function App() {
                   <p><button>РАСЧИТАТЬ СТОИМОСТЬ</button></p>     
                               
           
-            </div>      
+            </div> 
+            <div className='projects'>
+
+            </div>     
+            <div className='building'>
+
+            </div>
+            <div className='pharagraph'>
+                  <div className='pharagraph2'>
+                        <h1>О ТЕХНОЛОГИИ</h1>
+                        <p>Производство жилых модульных зданий, на базе каркасно панельной технологии</p>
+                        
+                        <h1>Преимущества</h1>
+                        <h2>Мобильность</h2>
+                        <h2>Короткие сроки монтажа</h2>
+                        <h2>Монтаж под ключ</h2>
+                        <h2>Полное инженерное оснащение</h2>
+                  </div>
+            </div>
+            <div className='form'>
+                  <form>
+                        <input></input>
+                        <input></input>
+                        <input></input>
+                        <input type='submit' value='Отправить' class='mysubmit'/>
+                  </form>
+                  f
+            </div>
                         
                         
                         
