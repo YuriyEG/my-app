@@ -1,6 +1,8 @@
 
 
 import './App.css';
+import Page from './page';
+import Builds from './builds';
 
 
 
@@ -24,12 +26,18 @@ function App() {
             </div>
             
             <div className='logo-picture'>
-                  <button>Показать фото строительства</button>
+                  
+                  
+
                   
             
                         
                         
+            </div>
+            <div className='buildfoto'>
+                  <Page />
             </div>   
+            
             
              
             <div className='contact'>
