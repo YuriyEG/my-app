@@ -1,39 +1,42 @@
-import Otrisovka from './otrisovka';
-import Prompt from './Prompt';
+
+
 import './App.css';
+
 
 function App() {
       
-      return (
+  return (
+      <div>
+            <div className='header'>
+                  <div className='modul'>
+                        ЖИЛЫЕ МОДУЛИ
+                  </div>
+                  <div className='phone'>
+                        8 (800) 885-15-88
+                  </div>
+            </div>
+            <div className='logo-picture'>
+                        
+                        
+            </div>    
+            <div className='contact'>
 
-                 <div>
-                        <div className='main'>
-                              <div className='child'>
-                                    fgfdg
+                  <p><button>КОНТАКТЫ</button></p>
+                  <p><button>О ТЕХНОЛОГИИ</button></p>      
+                  <p><button>РАСЧИТАТЬ СТОИМОСТЬ</button></p>     
+                              
+          
+            </div>      
+                        
+                        
+                        
+                  
 
-                              </div>
-                              <div className='child'>
-                                    dfgfdg
-
-                              </div>
-
-                        </div>
-                        {/* <div className='inline'>
-                              <div>
-                                    dfgdfg
-
-                              </div>
-                              <div>
-                                    dfggd
-
-                              </div>
-
-                        </div> */}
-                 </div>
             
+      
             
-      );
-    
+      </div>
+  )
  
 }
 

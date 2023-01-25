@@ -1,49 +1,82 @@
-.App {
+
+div {
+  background-color: #282c34;
+}
+
+.header {
+  background-color: #000000;
+  width:  960px;
+  
+  margin: auto;
+  height: 200px;
+  
+  
+  
+
+}
+.form {
+  background-color:rgb(97, 68, 68);
+}
+.projects {
+  background-color: #61dafb;
+}
+.pharagraph {
+  background-color: aqua;
+}
+.contact {
+  background-color: #000000;
+  width:  960px;
+  
+  margin: auto;
+  border: 1px solid rgba(0, 128, 0, 0);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+}
+.building {
+  background-color: #282c34;
+}
+.modul {
+  color:rgb(164, 164, 164);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #000000;
   text-align: center;
+  font-size: 42px;
+  padding-top: 35px;
+  font-weight: lighter;
+}
+.phone {
+  color:rgb(255, 255, 255);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #000000;
+  text-align: center;
+  font-size: 38px;
+  
+  font-weight: bold;
+  padding: 0 20px 0 20px;
+  
+  height: 80px;
+}
+.logo-picture {
+  color:#453a3a;
+  border: 1px solid rgba(255, 255, 255, 0);
+  
+  height: 300px;
+  background: url('logo.jpg');
+  background-position: center center;
+  
+  overflow: hidden;
+  width:  960px;
+  
+  margin: auto;
+  height: 800px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-.main {
-  background-color: black;
-  width: auto;
-  height: 1000px;
-}
-.child {
-  background-color: #282c34;
-  width: 30%;
-  height: 10%;
-  display: inline-block;
+button {
+  width: 400px;
+  height: 70px;
+  margin: 20px 280px 20px 280px;
+  background-color: #bdbdbd;
+  font-size: 30px;
 }
