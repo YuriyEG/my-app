@@ -98,6 +98,8 @@ div {
   
   margin: auto;
   height: 1450px;
+
+  
 }
 .modul {
   color:rgb(164, 164, 164);
@@ -107,7 +109,39 @@ div {
   font-size: 60px;
   padding-top: 35px;
   font-weight: 300;
+  opacity:0; /*Элемент полностью прозрачный (невидимый)*/
+  transition: 1s; /*Скорость перехода состояния элемента*/
+  animation: show 3s 1; /* Указываем название анимации, её время и количество повторов*/
+  animation-fill-mode: forwards; /* Чтобы элемент оставался в конечном состоянии анимации */
+  animation-delay: 1s; /* Задержка перед началом */
 }
+
+@keyframes show{
+  0%{
+  opacity:0;
+  }
+  100% {
+  opacity:1;
+  }
+  }
+
+
+.anim-show{
+  width:300px;
+  background:#176387;
+  color:#fff;
+  font-size:25px;
+  border:3px solid #2BA2DB;
+  padding:20px;
+  margin:auto;
+  margin-bottom:20px;
+  text-align:center;
+  opacity:0; /*Элемент полностью прозрачный (невидимый)*/
+  transition: 1s; /*Скорость перехода состояния элемента*/
+  animation: show 3s 1; /* Указываем название анимации, её время и количество повторов*/
+  animation-fill-mode: forwards; /* Чтобы элемент оставался в конечном состоянии анимации */
+  animation-delay: 1s; /* Задержка перед началом */
+  }
 .phone {
   color:rgb(255, 255, 255);
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -119,6 +153,11 @@ div {
   padding: 0 20px 0 20px;
   
   height: 80px;
+  opacity:0; /*Элемент полностью прозрачный (невидимый)*/
+  transition: 1s; /*Скорость перехода состояния элемента*/
+  animation: show 3s 1; /* Указываем название анимации, её время и количество повторов*/
+  animation-fill-mode: forwards; /* Чтобы элемент оставался в конечном состоянии анимации */
+  animation-delay: 1s; /* Задержка перед началом */
 }
 .logo-picture {
   color:#453a3a;
@@ -184,8 +223,53 @@ input {
   border: 1px solid rgba(0, 128, 0, 0);
   padding-top: 0;
   padding-bottom: 0px;
+
+  
 }
+
 .butt {
   font-size: 40px;
   color:rgb(164, 164, 164);
 }
+
+.on-hover{
+  width:300px;
+  background:#176387;
+  color:#fff;
+  font-size:25px;
+  border:3px solid #2BA2DB;
+  padding:20px;
+  margin:auto;
+  margin-bottom:20px;
+  text-align:center;
+  }
+  .hidden-block{
+  width:300px;
+  background:#176387;
+  color:#fff;
+  font-size:25px;
+  border:3px solid #2BA2DB;
+  padding:20px;
+  margin:auto;
+  text-align:center;
+  opacity:0; /*Элемент полностью прозрачный (невидимый)*/
+  transition: 1s; /*Скорость перехода состояния элемента*/
+  }
+
+  .on-hover:hover+ .hidden-block{
+    opacity:1;
+    transition: 1s;
+    
+    }
+
+    #div {
+      height: 0;
+      overflow: hidden;
+      opacity: 0;
+      transition: 1s ease-in-out;
+    }
+     
+    #sosed:hover ~ #div {
+      height:auto;
+      opacity: .5;
+    }
