@@ -2,7 +2,8 @@
 
 import './App.css';
 import Page from './page';
-import Builds from './builds';
+import ShowBuildPhoto from './Showbuildphoto';
+
 
 
 
@@ -35,7 +36,10 @@ function App() {
                         
             </div>
             <div className='buildfoto'>
-                  <Page />
+                  <ShowBuildPhoto />
+                  <ShowBuildPhoto />
+                  <ShowBuildPhoto />
+                  <ShowBuildPhoto />
             </div>   
             
             

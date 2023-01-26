@@ -1,6 +1,6 @@
 import React from "react";
-import Builds from './builds';
-const Bds = <Builds/>;
+
+
 
 function WarningBanner(props) {
     if (!props.warn) {
