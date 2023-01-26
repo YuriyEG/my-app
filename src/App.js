@@ -35,6 +35,16 @@ function App() {
                         
                         
             </div>
+            <div class="on-hover">
+                        Видимый 
+            </div>
+            <div class="hidden-block">
+                  Скрытый 
+            </div>
+
+            <div id="sosed">показать текст</div>
+            <div id="div">sdfsdfdsf</div>
+            
             <div className='buildfoto'>
                   <ShowBuildPhoto />
                   <ShowBuildPhoto />
