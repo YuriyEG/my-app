@@ -97,7 +97,7 @@ div {
   width:  960px;
   
   margin: auto;
-  height: 1450px;
+  height: auto;
 
   
 }
@@ -113,7 +113,7 @@ div {
   transition: 1s; /*Скорость перехода состояния элемента*/
   animation: show 3s 1; /* Указываем название анимации, её время и количество повторов*/
   animation-fill-mode: forwards; /* Чтобы элемент оставался в конечном состоянии анимации */
-  animation-delay: 1s; /* Задержка перед началом */
+  animation-delay: 0.5s; /* Задержка перед началом */
 }
 
 @keyframes show{
@@ -157,7 +157,7 @@ div {
   transition: 1s; /*Скорость перехода состояния элемента*/
   animation: show 3s 1; /* Указываем название анимации, её время и количество повторов*/
   animation-fill-mode: forwards; /* Чтобы элемент оставался в конечном состоянии анимации */
-  animation-delay: 1s; /* Задержка перед началом */
+  animation-delay: 0.5s; /* Задержка перед началом */
 }
 .logo-picture {
   color:#453a3a;
