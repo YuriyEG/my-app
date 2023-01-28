@@ -301,3 +301,54 @@ input {
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
+
+.slide {
+  width: 960px;
+  height: 170px;
+  background: red;
+  -webkit-transition: width 1s; /* For Safari 3.1 to 6.0 */
+  transition: height 1s;
+  overflow: hidden;
+  margin: auto;
+
+}
+
+.slide:hover {
+  height: 700px;
+}
+
+.modul2 {
+  color:rgb(164, 164, 164);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #000000;
+  text-align: center;
+  font-size: 60px;
+  padding-top: 50px;
+  font-weight: 300;
+  height: 120px;
+  border: 2px solid grey;
+  
+}
+
+.footer {
+  width: 960px;
+  height: 1900px;
+  margin: auto;
+
+}
+
+
+.slidebuild {
+  width: 960px;
+  height: 170px;
+  background: red;
+  -webkit-transition: width 5s; /* For Safari 3.1 to 6.0 */
+  transition: height 5s;
+  overflow: hidden;
+  margin: auto;
+
+}
+
+.slidebuild:hover {
+  height: 6000px;
+}
