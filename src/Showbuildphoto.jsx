@@ -13,13 +13,15 @@ function ShowToggle(props) {
 
     return (
                 
-                        
-                        <form>
-                              <input type='text' value='Ваше имя' />
+                        <div className="formmm">
+                            
+                              <input className="inpt"/>
                               <input></input>
                               <input></input>
                               <input type='submit' value='Отправить' class='mysubmit'/>
-                        </form>
+                        
+                        </div>
+                        
                 
 
     )  
@@ -41,11 +43,11 @@ class ShowBuildPhoto extends React.Component {
 
 render() {
     return (
-        <div>
+        <div className="footer">
             
-            <button className='butt' onClick={this.ToggleClick}>
-                {this.state.isTrue ? 'Скрыть фото   ' : 'Связаться с нами   ▼'}
-            </button>
+            <div className='butt' onClick={this.ToggleClick}>
+                {this.state.isTrue ? '   ' : 'Наши контакты'}
+            </div>
             <ShowToggle show={this.state.isTrue}/>
         </div>
     );

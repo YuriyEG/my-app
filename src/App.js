@@ -16,12 +16,7 @@ function App() {
       
   return (
       <div>
-            
-                  
-                  
-            
-            
-            
+
 
             <div className='header'>
                   <div className='modul'>
@@ -69,13 +64,26 @@ function App() {
             </div>
             <div  className='slidebuild'>
                         <div className='modul2'>ПРОЦЕСС ИЗГОТОВЛЕНИЯ</div>
-                        <img src='1.jpg' alt='1'/>
+                        {/* <img src='1.jpg' alt='1'/>
                         <img src='2.jpg' alt='2'/>
                         <img src='3.jpg' alt='3'/>
                         <img src='4.jpg' alt='4'/>
                         <img src='5.jpg' alt='5'/>
                         <img src='6.jpg' alt='6'/>
-                        <img src='7.jpg' alt='7'/>
+                        <img src='7.jpg' alt='7'/> */}
+                        <div className='divscroll'>
+                              <div className="scroll">
+                                          <img src='1.jpg' alt=''/>
+                                          <img src='2.jpg' alt=''/>
+                                          <img src='3.jpg' alt=''/>
+                                          <img src='4.jpg' alt=''/>
+                                          <img src='5.jpg' alt=''/>
+                                          <img src='6.jpg' alt=''/>
+                  
+
+                              </div>
+
+                        </div>
             </div> 
             <div  className='slide'>
                         <div className='modul2'>ПОЛУЧИТЬ РАСЧЕТ СТОИМОСТИ</div>
@@ -101,6 +109,7 @@ function App() {
                         <h2>Полное инженерное оснащение</h2>
                   </div>
             </div>
+
             
 
             {/* <div className='buildfoto'>
@@ -121,7 +130,7 @@ function App() {
 
             
 
-            <div className='footer'>
+            {/* <div className='footer'>
                   <div className='buildfoto'>
                   <ShowBuildPhoto />
                   
@@ -129,7 +138,10 @@ function App() {
 
             
                   
-            </div> 
+            </div>  */}
+            
+                  <ShowBuildPhoto />
+            
 
 
 
