@@ -20,7 +20,7 @@ function App() {
 
             <div className='header'>
                   <div className='modul'>
-                        ЖИЛЫЕ МОДУЛИ
+                        Нежилые модули
                   </div>
                   <div className='phone'>
                         8 (800) 885-15-88
