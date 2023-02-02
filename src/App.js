@@ -1,7 +1,7 @@
 
 
 import './App.css';
-import Page from './page';
+
 import ShowBuildPhoto from './Showbuildphoto';
 
 
