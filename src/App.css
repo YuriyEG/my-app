@@ -319,7 +319,7 @@ input {
   height: 170px;
   background: red;
   -webkit-transition: width 1s; /* For Safari 3.1 to 6.0 */
-  transition: height 1s;
+  transition: height 0.5s;
   overflow: hidden;
   margin: auto;
 
@@ -402,8 +402,8 @@ input {
   height: 700px;
   background-color: rgb(0, 0, 0);
   opacity:0; /*Элемент полностью прозрачный (невидимый)*/
-  transition: 4s; /*Скорость перехода состояния элемента*/
-  animation: show 5s 1; /* Указываем название анимации, её время и количество повторов*/
+  transition: 1s; /*Скорость перехода состояния элемента*/
+  animation: show 0.5s 1; /* Указываем название анимации, её время и количество повторов*/
   animation-fill-mode: forwards; /* Чтобы элемент оставался в конечном состоянии анимации */
   animation-delay: 0s; /* Задержка перед началом */
 }
